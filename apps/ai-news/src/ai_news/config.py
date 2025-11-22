@@ -17,7 +17,8 @@ class Settings:
     audio_dir: str = "outputs/audio"
     video_dir: str = "outputs/video"
     background_image_path: str = "assets/background.png"
-    avatar_image_path: str = "assets/avatar.png"
+    # avatar_image_path: str = "assets/avatar.png"
+    avatar_image_path: str = "assets/avatar_female_realistic.png"
 
 
 def get_settings() -> Settings:

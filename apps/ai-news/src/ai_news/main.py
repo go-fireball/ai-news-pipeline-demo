@@ -54,7 +54,7 @@ def main():
     )
     args = parser.parse_args()
 
-    run_pipeline(topic=args.topic)
+    run_pipeline(topic="Ai Stock news")
 
 
 if __name__ == "__main__":
