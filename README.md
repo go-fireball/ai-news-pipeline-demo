@@ -2,6 +2,10 @@
 
 An experimental pipeline that drafts an AI-generated news script with OpenAI, delivers narration through the text-to-speech API, and stitches everything into a short video using MoviePy. The goal is to keep the repo small and readable today so it can evolve later.
 
+### 🎥 AI-Generated News Reader (Demo)
+
+[Demo Video](./demo/result_voice.mp4)
+
 ## Project Layout
 - `apps/ai-news/src/ai_news` contains modular code for configuration, script generation, TTS, and video assembly.
 - `apps/ai-news/assets` stores the static background/avatar images used in the stitched video.
